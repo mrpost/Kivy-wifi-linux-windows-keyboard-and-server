@@ -1,4 +1,4 @@
-# Kivy-wireless-linux-keyboard-and-server
+# Kivy-wifi-linux-keyboard-and-server
 tablet or android keyboard for linux pc's
 
 prerecquisites for client                                                                                                       

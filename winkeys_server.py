@@ -29,7 +29,7 @@ try:
 except socket.error, msg:
     print "socket failed. error code :" + str(msg[0]) + " Message " + msg[1]
     sys.exit()
-    
+# The ctypes code is from stackoverflow, I couldn't find the original post so am not sure who to credit    
 SendInput = ctypes.windll.user32.SendInput
 
 # C struct redefinitions 

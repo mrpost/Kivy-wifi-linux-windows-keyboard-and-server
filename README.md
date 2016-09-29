@@ -1,5 +1,5 @@
-# Kivy-wifi-linux-keyboard-and-server
-tablet or android keyboard for linux pc's
+# Kivy-wifi-linux/windows-keyboard-and-server
+tablet or android keyboard for linux and windows pc's
 
 prerecquisites for client                                                                                                       
 
@@ -16,7 +16,7 @@ keyboard.kv,
 
 to the QPython Projects Folder, I use the QPython FTP service to do this.
 
-On the Host PC
+For Linux Host PC:
 
 prerecquisites numpy, uinput
 
@@ -31,4 +31,18 @@ sudo modprobe uinput, you can check the /dev directory after there should be a l
 launch server
 
 sudo ./keys_server.py
+
+For Windows Host PC:
+
+Download and install Python 2.7(latest version)
+
+prerecquisites pypiwin32, numpy
+
+pip install pypiwin32
+
+pip install numpy
+
+python winkeys_server.py 
+
+
 
